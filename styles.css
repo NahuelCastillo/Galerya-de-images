@@ -49,26 +49,4 @@ body {
     height: 2px;
     background-color: #fff; 
     margin: 8px auto 0; 
-
-.image{
-    border: 5px solid #696b80;
-    border-radius: 10px;
-    height: 400px;
-    display: block;
-    margin: auto;
-}
-
-.link-button {
-    text-decoration: none;
-    color: rgb(62, 85, 113);
-    background-color: #f2f2f2;
-    padding: 5px;
-    border-radius: 2em;
-    box-shadow: 2px 3px #888888;
-}
-
-.link-button:hover {
-    color:#f2f2f2;
-    background-color: #7a7c98;
-    box-shadow: 2px 3px #888888;
 }
