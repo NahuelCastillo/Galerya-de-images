@@ -58,3 +58,14 @@ body {
     background-color: #7a7c98;
     box-shadow: 2px 3px #888888;
 }
+
+aside {
+    float: right;
+    width: calc(20% - 20px);
+    background: #d3e5db;
+    min-height: auto;
+    padding: 20px;
+    border-radius: 10px;
+    margin-right: 20px;
+
+}
