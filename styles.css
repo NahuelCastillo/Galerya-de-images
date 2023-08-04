@@ -1,6 +1,38 @@
 body {
     background-color: rgb(255, 255, 165);
 }
+/*cambiar el titulo*/
+#titulo {
+    text-align: center;
+    background-color:aqua;
+    color: #fff;
+    padding: 10px;
+}
+/* cambio subrayado del titulo titulo*/
+#titulo::after {
+    content: '';
+    display: block;
+    width: 50%;
+    height: 2px;
+    background-color: #fff;
+    margin: 8px auto 0;
+}
+/*cambiar el titulo2*/
+#titulo2 {
+    text-align: center;
+    background-color:chartreuse;
+    color:blueviolet;
+    padding: 10px;
+}
+/*cambiar el subrayado titulo2 */  
+#titulo2::after {
+    content: '';
+    display: block;
+    width: 50%;
+    height: 2px;
+    background-color: #fff; 
+    margin: 8px auto 0; 
+}
 
 .image{
     border: 5px solid green;
