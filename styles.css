@@ -1,5 +1,7 @@
 body {
-    background-color: rgb(255, 255, 165);
+    background-color: rgb(62, 85, 113);
+    font-family: Montserrat;
+    color:#f2f2f2;
 }
 /* trabajo en el titulo */
 #titulo {
@@ -35,17 +37,22 @@ body {
 }
 
 .image{
-    border: 5px solid green;
+    border: 5px solid #696b80;
     border-radius: 10px;
     height: 400px;
 }
 
 .link-button {
     text-decoration: none;
-    color: black;
-    border: 1px solid gray;
+    color: rgb(62, 85, 113);
     background-color: #f2f2f2;
     padding: 5px;
-    border-radius: 5px;
+    border-radius: 2em;
+    box-shadow: 2px 3px #888888;
+}
+
+.link-button:hover {
+    color:#f2f2f2;
+    background-color: #7a7c98;
     box-shadow: 2px 3px #888888;
 }
