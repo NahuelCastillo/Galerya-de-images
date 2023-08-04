@@ -35,6 +35,20 @@ body {
     background-color: #fff;
     margin: 8px auto 0;
 }
+#Index {
+    text-align: center;
+    background-color: red; 
+    color: #fff; 
+    padding: 10px; 
+}
+/*subrayado*/
+#Index::after {
+    content: '';
+    display: block;
+    width: 50%;
+    height: 2px;
+    background-color: #fff; 
+    margin: 8px auto 0; 
 
 .image{
     border: 5px solid #696b80;
