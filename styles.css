@@ -35,22 +35,20 @@ body {
     background-color: #fff;
     margin: 8px auto 0;
 }
-
-.image{
-    border: 5px solid #696b80;
-    border-radius: 10px;
-    height: 400px;
-    display: block;
-    margin: auto;
+#Index {
+    text-align: center;
+    background-color: red; 
+    color: #fff; 
+    padding: 10px; 
 }
-
-.link-button {
-    text-decoration: none;
-    color: rgb(62, 85, 113);
-    background-color: #f2f2f2;
-    padding: 5px;
-    border-radius: 2em;
-    box-shadow: 2px 3px #888888;
+/*subrayado*/
+#Index::after {
+    content: '';
+    display: block;
+    width: 50%;
+    height: 2px;
+    background-color: #fff; 
+    margin: 8px auto 0; 
 }
 
 .link-button:hover {
@@ -67,5 +65,4 @@ aside {
     padding: 20px;
     border-radius: 10px;
     margin-right: 20px;
-
 }
